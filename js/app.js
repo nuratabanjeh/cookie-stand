@@ -134,7 +134,35 @@ for (let i = 0; i < citiesArray.length; i++) {
     // seattle.sendData();
 
 }
+
+
+const cookieForm = document.getElementById('cooForm');
+cookieForm.addEventListener('submit', handlesubmitting);
+function handlesubmitting(event) {
+    console.log("🚀 ~ file: app.js ~ line 142 ~ handlesubmitting ~ event", event.target.branch)
+    event.preventDefault();
+    let branch = event.target.branch.value;
+    let min = event.target.min.value;
+    min = parseFloat(min);
+    let max = event.target.max.value;
+    max = parseFloat(max);
+    let avg = event.target.avg.value;
+    avg = parseFloat(avg);
+    let newCity = new Cities(branch, min, max, avg);
+    // console.log("🚀 ~ file: app.js ~ line 148 ~ handlesubmitting ~ branch", branch);
+    newCity.getcusPerHour();
+    newCity.getavgCookiesperhour();
+    table.deleteRow(table.rows.length - 1);
+    newCity.sendData();
+    footerTable();
+}
 footerTable();
+
+
+
+
+
+
 // citiesArray[0].sendData();
 // citiesArray[1].sendData();
 
