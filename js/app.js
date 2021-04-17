@@ -39,11 +39,12 @@ var table = document.createElement('table');
 table.setAttribute('id', 'myTable')
 container.appendChild(table);
 function tableHeader() {
-
+    let newHeader = document.createElement('thead')
+    table.appendChild(newHeader);
 
 
     let tableHeader = document.createElement('tr')
-    table.appendChild(tableHeader);
+    newHeader.appendChild(tableHeader);
     let emptyTd = document.createElement('th');
     tableHeader.appendChild(emptyTd);
     emptyTd.textContent = '';
@@ -60,9 +61,10 @@ function tableHeader() {
     lastCol.textContent = 'Daily Location Total'
 }
 Cities.prototype.sendData = function () {
-
+    let tableBody = document.createElement('tbody');
+    table.appendChild(tableBody);
     let firstTr = document.createElement('tr');
-    table.appendChild(firstTr);
+    tableBody.appendChild(firstTr);
     let firstCityName = document.createElement('td');
     firstTr.appendChild(firstCityName);
 
@@ -157,7 +159,6 @@ function handlesubmitting(event) {
     footerTable();
 }
 footerTable();
-
 
 
 

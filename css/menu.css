@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+header{
+    background-color: rgba(138, 90, 68,0.3);
+    margin-top: 0%;
+    
+    
+    width: 100%;
+    padding: 0%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    
+    
+
+}
+#shopName{
+    padding: 10px;
+    display: inline-block;
+    font-family: 'Satisfy', cursive;
+    margin-left: 100px;
+}
+ul{
+    color: black;
+    text-align: center;
+    list-style-type: circle;
+    width: 700px;
+}
+nav {
+    float: right;
+
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 21.44px;
+   
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    margin-top: 21.44px;
+    font-family: 'Satisfy', cursive;
+    
+}
+nav li  :hover{
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    padding: 10px;
+}
+footer{
+    background-color: rgba(138, 90, 68,0.3);
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer #workhrs{
+    font-family:'Satisfy', cursive ;
+    font-weight: bold;
+    margin-top: 1%;
+    padding: 10px;
+    margin-left: 100px;
+    display: inline-block;
+
+}
+footer address{
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+    font-weight: bold;
+}
+footer address a{
+    color: black;
+}
+
+#logo{
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+    left: 88px;
+    padding-top: 49px; 
+    
+}
+.services
+{
+width:1000px;
+overflow:auto;
+margin:0 auto;
+}
+.pricecol
+{
+width:31%;
+background:#fff1e6;
+min-height:30%;
+border-radius:10px;
+position:relative;
+padding:30px 0px;
+text-align:center;
+font-family:verdana;
+float:left;
+margin-left:20px;
+}
+.icon
+{
+width:150px;
+height:150px;
+border-radius:100%;
+background:#e86100;
+color:#fff;
+text-align:center;
+position:relative;
+margin:0 auto;
+
+}
+.icon i
+{
+font-size:30px;
+position:relative;
+top:15px;
+}
+.pricecol h3
+{
+text-align:center;
+background:rgba(0,0,0,0.2);
+text-align:center;
+border-top:1px solid rgb(25, 31, 34);
+border-bottom:1px solid rgb(51, 60, 64);
+color:#fff;
+border-radius: 25px;
+}
+.pricecol h3 span
+{
+border-top:1px solid rgb(51, 60, 64);
+border-bottom:1px solid  rgb(25, 31, 34);
+display:block;
+padding: 10px 0px;
+font-family:verdana;
+font-size:20px;
+border-radius: 25px;
+}
+.button
+{
+border-radius:34px;
+border:5px solid rgba(255, 255, 255, 0.07);
+color:whitesmoke;
+font-size:16px;
+margin-top:15px;
+text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15);
+cursor:pointer;
+display:inline-block;
+}
+.button span
+{
+display:inline-block;
+padding:10px 15px;
+background: none repeat scroll 0% 0% #e86100;
+border-radius:20px;
+box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3) inset, 0px 2px 0px rgba(255, 255, 255, 
+
+0.1) inset;
+}
+.pricecol ul
+{
+list-style-type:none;
+padding:0px;
+color:#fff;
+font-family:verdana;
+font-size:14px;
+margin:0 auto;
+text-align:center;
+width:70%;
+color:rgb(165, 174, 178);
+border-bottom:1px solid rgb(51, 60, 64);
+border-top:1px solid rgb(25, 31, 34);
+}
+.pricecol ul li
+{
+padding:10px 0px;
+border-top:1px solid rgb(51, 60, 64);
+border-bottom:1px solid rgb(25, 31, 34);
+}
+.icon-leaf{
+    width:100%;
+    height:100%;
+    border-radius: 25px;
+}
+
